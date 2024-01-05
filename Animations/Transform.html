@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trans</title>
+
+    <style>
+        div {
+            position: absolute;
+            height: 10%;
+            width: 10%;
+            top: 20%;
+            left: 30%;
+            animation-name: spin;
+            animation-duration: 10s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+            color: rgb(235, 14, 14);
+            /* text-shadow: 3px 3px 3px; */
+            box-shadow: 5px 5px 5px;
+        }
+
+        @keyframes spin {
+            0% {}
+
+            9% {
+                transform: rotateY(50deg);
+                color: aquamarine;
+            }
+
+            40% {
+                transform: translateZ(90px);
+                color: deeppink;
+            }
+
+            49% {}
+
+            50% {
+                transform: rotateX(50deg);
+                color :gold;
+            }
+
+            100% {
+                transform: translateZ(90px);
+                color: crimson;
+            }
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Thank You</h1>
+    </div>
+</body>
+
+</html>

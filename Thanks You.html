@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <style>
+        
+
+        /* Animation */
+        .thank {
+            position: absolute;
+
+            animation-name: spin;
+            animation-duration: 8s;
+            /* animation-fill-mode: both; */
+            animation-iteration-count: infinite;
+            color: rgb(235, 14, 14);
+            text-shadow: 3px 3px 3px;
+            /* box-shadow: 5px 5px 5px; */
+
+
+        }
+
+        @keyframes spin {
+            0% {}
+
+            9% {
+                transform: rotateY(50deg);
+                color: aquamarine;
+            }
+
+            40% {
+                transform: translateZ(90px);
+                color: deeppink;
+            }
+
+            49% {}
+
+            50% {
+                transform: rotateX(50deg);
+                color: rgba(255, 217, 0, 0.888);
+            }
+
+            100% {
+                transform: translateZ(90px);
+                color: crimson;
+            }
+
+
+        }
+
+        .btn {
+            color: antiquewhite;
+            background-color: #dc143c;
+            border-radius: 60px;
+            height: 50px;
+            width: 100px;
+            box-shadow: 3px 3px 3px 3px;
+        }
+
+        .btn:hover {
+            background-color: coral;
+            box-shadow: 3px 3px 3px 3px;
+
+        }
+
+        .comment {
+            border-style: solid;
+            border-color: teal;
+            border-width: 5px;
+            box-shadow: 10px 5px 5px 10px rgba(30, 29, 28, 0.363);
+        }
+
+        .comment:hover {
+            border-style: solid;
+            border-color: #ff7f50;
+            border-width: 5px;
+            box-shadow: 10px 5px 5px 10px rgba(19, 18, 15, 0.382);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- <div class="row text-center">
+            <div class="col-md-12">
+                <br>
+                <h1>Thank you of getting in touch!</h1>
+                <p>To make it easier for your customers</p>
+            </div>
+        </div> -->
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row ">
+                    <div class="card">
+                        <img src="pic/tree3.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay ">
+                            <h2 class="card-title" style="margin-top: 100px; color:white;">
+                                <center>Kashi Vishvanath Temple!</center>
+                            </h2>
+                            <h5 class="card-text" style="color: white;">
+                                <center>One of the most famous Hindu temples dedicated to Lord Shiva.It is located in
+                                    Varanasi, Uttar Pradesh, India. The temple stands on the western bank of the holy
+                                    river Ganga.</center>
+                            </h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <br>
+                        <div class="row ">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6 thank">
+                                <center>
+                                    <h1 style="font-size: 80px;">Thank You</h1>
+                                </center>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <br>
+                        <br><br><br><br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <h3>Please explane your experiance here !
+                                    </h3>
+                                </center>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row text-center">
+                            <div class="col-md-12">
+
+
+                                <textarea style="background-color: #93e8e811" class="form-control comment"
+                                    placeholder="Comment" value="comment" rows="10"></textarea>
+                            </div>
+
+                        </div>
+
+                        <br>
+                        <div class="row text-center">
+                            <div class="col-md-12"><input type="submit" name="Get in Touch" value="Send" class="btn" />
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <style>
+        .h1 {
+            background-color: #ff7f50;
+        }
+
+        .pz {
+            background-color: #d8bfd8;
+            text-align: center;
+        }
+
+        .que {
+            background-color: #f0ffff;
+        }
+
+        .opt {
+            background-color: #e0ffff;
+            color: coral;
+        }
+
+        .table {
+            background-color: #f0fff0;
+            height: 70%;
+            width: 90%;
+        }
+
+        .btn {
+            background-color: #e6c8b0;
+            border-radius: 50px;
+            box-shadow: 2px 2px 2px rgb(126, 172, 213);
+        }
+
+        .btn:hover {
+            background-color: #e6e6fa;
+        }
+
+
+        
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <center>
+        <table border="1" class="table">
+
+            <tr>
+
+                <td colspan="5" class="h1">
+                    <center>
+                        <h1>Quiz</h1>
+
+                    </center>
+
+                </td>
+
+            </tr>
+            <tr>
+
+                <td style="background-image: url('../pics/');" colspan="2" rowspan="20" class="que">
+                    <h2>
+                        <center>Question :</center>
+                    </h2>
+                    <h3>
+                        <center>
+                            <p id="qno"></p>
+                        </center>
+                    </h3>
+                </td>
+
+            </tr>
+
+
+            <tr class="opt">
+
+                <td> <input id="opt_A" name="opt" type="radio" value="a"><label for="opt_A" id="a"></label> </td>
+                <td> <input id="opt_B" name="opt" type="radio" value="b"> <label for="opt_B" id="b"></label></td>
+
+            </tr>
+            <tr class="opt">
+                <td> <input id="opt_C" name="opt" type="radio" value="c"><label for="opt_C" id="c"></label> </td>
+                <td> <input id="opt_D" name="opt" type="radio" value="d"> <label for="opt_D" id="d"></label></td>
+
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button id="onclick" type="submit" class="btn">Submit</button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+
+    </center>
+
+
+
+</body>
+
+</html>
