@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto Mono'; font-size: 22px;
+    
+}
+.btnO {
+    color: azure;
+    border-style: solid;
+    border-color: #059862;
+    background-color: #059862;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.accord{
+    box-shadow: 0px 4px 16px 0px  rgba(194, 135, 135, 0.777);
+}
+.accordion{
+    border-style: ridge;
+    border-color: rgba(0, 0, 0, 0.808);   
+    border-radius: 10px;
+}
+.accordion:hover{
+    border-style: ridge;
+    border-color: rgba(239, 6, 6, 0.858); 
+    border-radius: 10px;  
+}
+.accordion-button{
+    background-color: 	whitesmoke;
+}
+.accordion-item{
+    /* background-color: #ffffe0; */
+    background-color: #dcdcdc;
+}
+.card{
+   
+    background-color: 	#FFFAFA;
+    box-shadow: 0 5px 10px 0 #444141a1;
+    border-radius: 15px;
+    flex-basis: 33%;
+   
+}
