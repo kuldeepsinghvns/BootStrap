@@ -1,9 +1,12 @@
-
+body{
+    background-color: #FFFACD;
+}
 .input{
 
    background-color: rgba(240, 248, 255, 0.125);
-    border-color: aqua;
+    border-color: #EEE8AA;
     border-style: solid;
+    border-radius: 10px;
 }
 .Email{
     border-radius: 100px;
@@ -12,10 +15,17 @@
 }
 .button{
     border-radius: 100px;
-    background-color: #FFDAB9;
-    border-color: blue;
+    background-color: #EEE8AA;
+    
     /* font-family: initial; */
 }
 h1{
+    color: white;
+    text-align: center;
+}
+a{
+    color: yellow;
+}
+span{
     color: white;
 }
