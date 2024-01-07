@@ -1,0 +1,21 @@
+
+.input{
+
+   background-color: rgba(240, 248, 255, 0.125);
+    border-color: aqua;
+    border-style: solid;
+}
+.Email{
+    border-radius: 100px;
+    border-color: black;
+    background-color: #FFFFE0;
+}
+.button{
+    border-radius: 100px;
+    background-color: #FFDAB9;
+    border-color: blue;
+    /* font-family: initial; */
+}
+h1{
+    color: white;
+}
