@@ -3,7 +3,7 @@
     padding: 10px;
 }
 .form{
-    border-color: black;
+    border-color: rgb(223, 9, 9);
     border-style: solid;
     background-color: #EEE8AA;
     border-radius: 10px;
@@ -11,4 +11,12 @@
 }
 .enquiry{
     font-family: 'Alfa Slab One';font-size: 22px;
+    color: white;
+}
+.button{
+    border-style: solid;
+    border-color: coral;
+    background-color: coral;
+    border-radius: 50px;
+
 }
