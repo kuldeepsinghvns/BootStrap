@@ -2,6 +2,9 @@
     background-color: #FFFFE0;
     padding: 10px;
 }
+body{
+    background-color: #FFFACD;
+}
 .form{
     border-color: rgb(223, 9, 9);
     border-style: solid;
