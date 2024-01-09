@@ -1,5 +1,5 @@
 body{
-    font-family: 'Alkalami';
+    font-family: 'Alfa Slab One';
 }
 .box{
     border-color: black;
@@ -11,6 +11,7 @@ body{
     /* background-color: antiquewhite; */
     color: red;
 }
+
 
 .Random{
     font-family: 'Alfa Slab One';font-size: 22px;
