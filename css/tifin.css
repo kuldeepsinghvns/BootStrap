@@ -1,0 +1,8 @@
+.button{
+    color: azure;
+    border-style: solid;
+    border-color: #059862;
+    background-color: #059862;
+    height: 40px;
+    border-radius: 5px;
+}
