@@ -1,0 +1,19 @@
+body{
+    font-family: 'Alkalami';
+}
+.box{
+    border-color: black;
+    border-style: solid;
+
+}
+.Plan{
+    font-family: 'Alfa Slab One';font-size: 22px;
+    /* background-color: antiquewhite; */
+    color: red;
+}
+
+.Random{
+    font-family: 'Alfa Slab One';font-size: 22px;
+    /* background-color: antiquewhite; */
+    color: cornflowerblue;
+}
