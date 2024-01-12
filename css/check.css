@@ -1,0 +1,27 @@
+table ,td{
+    /* border: 2px solid rgba(110, 106, 106, 0.779); */
+    border: 2px solid #F4A460;
+    border-collapse: collapse;
+}
+body{
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 18px;
+}
+h5{
+    font-family: 'ADLaM Display';font-size: 22px;
+    padding: 10px;
+}
+td{
+   padding:10px;
+   
+}
+
+td:hover{
+    background-color: #FFFFE0;
+    box-shadow: 0px 5px 10px 0px rgb(205, 166, 166);
+}
+.Top{
+    background-color: aquamarine;
+    border-radius: 100px;
+}

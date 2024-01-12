@@ -42,8 +42,36 @@ body{
     background-color: 	#FFFAFA;
     box-shadow: 0 10px 20px 0 #444141a1;
     border-radius: 15px;
-    
    
 }
+
+.input-container {
+    position: relative;
+    
+}
+
+.input-box {
+    /* padding-right: 40px; */
+    height: 50px; 
+    border-radius: 8px;
+    width: 350px;
+    border: 1px solid green;
+    background-color: #FFFCE2;
+    
+}
+
+.check-button {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 50%;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    transform: translateY(-50%);
+    border: 1px solid blueviolet;
+    background-color: #059862;
+    color:#B0E0E6 ;
+}
+
 
   
