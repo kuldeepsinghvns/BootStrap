@@ -1,0 +1,43 @@
+body{
+    background-color:#E6E6FA;
+    font-family: 'Roboto Mono'; 
+    font-size: 18px;
+}
+ 
+.Table{
+    height: 100%;
+}
+.Td{
+    height: 90%;
+    border-style: solid;
+    vertical-align: top;
+}
+
+
+
+.card{
+    background-color: #FFFFFF;
+    
+     box-shadow: 0px 13px 30px rgba(112, 111, 111, 0.544);
+}
+.card:hover{
+    background-color: whitesmoke;
+    box-shadow: 0px 13px 30px rgba(194, 135, 135, 0.777);
+}
+.Button{
+    background-color: #4CA753;
+    color: white;
+}
+
+
+.Button2{
+    background-color: #808080;
+    color: white;
+}
+h5{
+    color: red;
+}
+.card-title{
+    color: #228B22;
+    font-family: 'Alkalami';font-size: 20px;
+}
