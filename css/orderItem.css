@@ -4,16 +4,14 @@ body{
     font-size: 18px;
 }
  
-.Table{
+/* .Table{
     height: 100%;
-}
+} */
 .Td{
     height: 90%;
     border-style: solid;
     vertical-align: top;
 }
-
-
 
 .card{
     background-color: #FFFFFF;
@@ -34,10 +32,98 @@ body{
     background-color: #808080;
     color: white;
 }
-h5{
+.H5{
     color: red;
 }
 .card-title{
     color: #228B22;
     font-family: 'Alkalami';font-size: 20px;
+}
+
+.search{
+    border: 1px black;
+    border-style: solid;
+    color: red;
+}
+.search:hover{
+    border: 1px  black;
+    border-style: solid;
+    color: teal;
+}
+
+
+/* Model 1 */
+
+
+.Table{
+    /* border: 2px solid rgba(110, 106, 106, 0.779); */
+    border: 2px solid #F4A460;
+    border-collapse: collapse;
+}
+.tt1{
+    /* border: 2px solid rgba(110, 106, 106, 0.779); */
+    border: 2px solid #F4A460;
+    border-collapse: collapse;
+}
+body{
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 18px;
+}
+h5{
+    font-family: 'Alkalami';font-size: 22px;
+    padding: 10px;
+    color: #FF4500;
+}
+.tt1{
+   padding:10px;
+   
+}
+
+.tt1:hover{
+    background-color: #FFFFE0;
+    box-shadow: 0px 5px 10px 0px rgb(205, 166, 166);
+}
+.Top{
+    background-color: aquamarine;
+    border-radius: 100px;
+}
+
+ /* Location Button */
+ 
+.input {
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    
+}
+
+.input-box {
+    padding-right: 40px;
+    height: 50px; 
+    border-radius: 8px;
+    width: 350px;
+    border: 1px solid green;
+    /* background-color: #FFFCE2; */
+    
+}
+
+.check-button {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 50%;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    transform: translateY(-50%);
+    border: 1px solid blueviolet;
+    background-color: #059862;
+    color:white ;
+}
+
+.text{
+    color: #D2691E;
+}
+.text:hover{
+    color: darkorchid;
 }
