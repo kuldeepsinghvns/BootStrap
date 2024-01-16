@@ -8,7 +8,7 @@ body{
     height: 100%;
 } */
 .Td{
-    height: 90%;
+    /* height: 90%; */
     border-style: solid;
     vertical-align: top;
     
@@ -67,7 +67,7 @@ body{
     border-collapse: collapse;
 }
 body{
-    /* font-family: 'Alfa Slab One'; */
+    font-family: 'Alfa Slab One';
     color: black;
     font-size: 18px;
 }
