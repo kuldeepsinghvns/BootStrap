@@ -1,0 +1,65 @@
+/* Body and background setup */
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(to bottom, #FFFFFF,#FFFFFF); /* Background gradient */
+  }
+  
+  /* Container to hold all petals */
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: flex;
+    justify-content: center; /* Ensure petals come from center */
+    align-items: flex-start; /* Align petals at the top */
+  }
+  
+  /* Petal base styling */
+  .petal {
+    position: absolute;
+    width: 70px; /* Adjust petal size */
+    height: 70px;
+    opacity: 0.9;
+    background: transparent; /* Transparent background */
+    animation: fall infinite ease-in-out; /* Falling animation */
+    left: 0;
+  }
+  
+  /* Animation: Falling effect */
+  @keyframes fall {
+    0% {
+      transform: translateY(-10vh) rotate(0deg); /* Start above the viewport */
+      opacity: 0.9;
+    }
+    25% {
+        transform: translateY(30vh) rotate(130deg); /* Midway rotation */
+        opacity: 0.5;
+      }
+    50% {
+      transform: translateY(50vh) rotate(180deg); /* Midway rotation */
+      opacity: 0.8;
+    }
+    75% {
+        transform: translateY(75vh) rotate(250deg);
+         /* Midway rotation */
+        opacity: 0.3;
+      }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes sway {
+    0%, 100% {
+      transform: translateX(0); /* No sway */
+    }
+    50% {
+      transform: translateX(var(--sway)); /* Apply sway amount */
+    }
+  }
+  

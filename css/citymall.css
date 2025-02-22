@@ -1,0 +1,64 @@
+body{
+    background-color: #FFFFFF;
+}
+.btn{
+
+   color: #FF1493;
+   border: 1px solid #FF1493;
+}
+.btn:hover{
+    background-color: #FF1493;
+    color: white ;
+  
+ }
+ .card{
+    background-color: #FFFFFF;
+    /* border-radius: 10px; */
+
+ }
+ 
+
+
+.Td {
+    border-style: ridge;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.Td:hover {
+    transform: scale(1.05);
+    /* Adjust the scale factor for the desired zoom level */
+}
+
+
+.rt:hover{
+    color: white;
+    background-color: #FF4500;
+    height: 40px;
+    border-radius: 20px ;
+}
+.rt{
+    height: 40px;
+    border-radius: 20px ;
+
+}
+.offcanvas-body{
+    background-color: #c1dcdf62;
+}
+.offcanvas-header{
+    background-color: #c1dcdf62;
+}
+.search{
+    border: 1px #FF4500 solid;
+    
+}
+.search:hover{
+    border: 1px black solid;
+}
+
+
+
+  

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realistic Falling Petals Animation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Add more petals to create more effect -->
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <img src="../pic/petal.png" class="petal" alt="petal">
+    <!-- Add more petals as needed -->
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const petals = document.querySelectorAll('.petal');
+
+      petals.forEach(petal => {
+        // Randomize delay and duration for each petal
+        const randomDelay = Math.random() * 3;  // Random delay up to 3 seconds
+        const randomDuration = 5 + Math.random() * 10;  // Random duration between 5s to 15s
+        const swayAmount = (Math.random() - 0.5) * 50; // Increase sway for more dramatic movement
+
+        // Apply random animation delay, duration, and sway
+        petal.style.animationDelay = `${randomDelay}s`;
+        petal.style.animationDuration = `${randomDuration}s`;
+        petal.style.left = `${Math.random() * 100}%`; // Random horizontal position
+        petal.style.setProperty('--sway', `${swayAmount}px`); // Set sway value for each petal
+
+        // Add the sway animation
+        petal.style.animation += `, sway ${randomDuration}s infinite ease-in-out`;
+      });
+    });
+  </script>
+</body>
+</html>

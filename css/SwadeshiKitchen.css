@@ -52,6 +52,7 @@ body{
 
 .input-box {
     padding-right: 40px;
+    padding-left: 20px;
     height: 50px; 
     border-radius: 8px;
     width: 350px;
@@ -69,9 +70,50 @@ body{
     width: 80px;
     transform: translateY(-50%);
     border: 1px solid blueviolet;
-    background-color: #059862;
-    color:#B0E0E6 ;
+    background-color: white;
+    color: green ;
 }
 
+.check-button:hover {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 50%;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    transform: translateY(-50%);
+    /* border: 1px solid blueviolet; */
+    background-color:#008000;
+    border: 1px rgb(128, 0, 79) solid;
+    color:whitesmoke ;
+}
+
+
+
+
+.rt:hover{
+    color: white;
+    background-color: #FF4500;
+    height: 40px;
+    border-radius: 20px ;
+}
+.rt{
+    height: 40px;
+    border-radius: 20px ;
+
+}
+.offcanvas-body{
+    background-color: #c1dcdf62;
+}
+.offcanvas-header{
+    background-color: #c1dcdf62;
+}
+.search{
+    border: 1px #FF4500 solid;
+    
+}
+.search:hover{
+    border: 1px black solid;
+}
 
   
